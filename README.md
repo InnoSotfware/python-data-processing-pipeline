@@ -97,7 +97,11 @@ Processing logs are stored in logs/pipeline.log.
 
 ## 10. Sample Test Results
 
-CSV Test:
+## 10. Testing and Results
+
+The pipeline was tested using three different input sources: CSV, JSON, and a public API.
+
+### CSV Test
 
 - Input Rows: 7
 - Output Rows: 5
@@ -105,7 +109,7 @@ CSV Test:
 - Duplicates Removed: 1
 - Missing Values Filled: 1
 
-JSON Test:
+### JSON Test
 
 - Input Rows: 2
 - Output Rows: 2
@@ -113,7 +117,15 @@ JSON Test:
 - Duplicates Removed: 0
 - Missing Values Filled: 2
 
-Both tests completed successfully.
+### API Test
+
+- Input Rows: 10
+- Output Rows: 10
+- Invalid Rows Skipped: 0
+- Duplicates Removed: 0
+- Missing Values Filled: 10
+
+All three tests completed successfully.
 
 ## 11. Logging
 
@@ -121,7 +133,7 @@ The application uses Python logging to record processing activities and errors.
 
 The log file is stored at:
 
-    logs/pipeline.log
+`logs/pipeline.log`
 
 ## 12. Conclusion
 
