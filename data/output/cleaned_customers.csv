@@ -1,0 +1,6 @@
+id,name,age,amount,active,signup_date,country
+1,Amalia,25,120.5,True,2026-01-10,Namibia
+2,Peter,,85.0,True,2026-02-11,Namibia
+3,Maria,,40.25,False,2026-03-12,Angola
+5,David,29,,,2026-04-01,Namibia
+6,Selma,22,90.0,True,2026-04-02,Namibia

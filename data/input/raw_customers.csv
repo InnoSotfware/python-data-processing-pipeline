@@ -1,0 +1,8 @@
+Customer ID,Full Name,age,amount,active,signup_date,country
+1,Amalia,25,120.50,yes,2026-01-10,Namibia
+2,Peter,,85,true,2026-02-11,
+3,Maria,not-known,40.25,no,2026-03-12,Angola
+4,,31,55,yes,2026-03-15,Namibia
+1,Amalia Duplicate,25,120.50,yes,2026-01-10,Namibia
+5,David,29,invalid,maybe,2026-04-01,Namibia
+6,Selma,22,90,1,2026-04-02,Namibia

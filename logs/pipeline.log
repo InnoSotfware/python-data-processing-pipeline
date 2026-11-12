@@ -1,0 +1,84 @@
+2026-11-11 02:34:11,804 - INFO - Starting data processing pipeline.
+2026-11-11 02:34:11,864 - INFO - Successfully read 8 records.
+2026-11-11 02:34:11,865 - WARNING - Row 1 skipped. Missing required fields: ['id', 'name']
+2026-11-11 02:34:11,865 - WARNING - Row 2 skipped. Missing required fields: ['id', 'name']
+2026-11-11 02:34:11,866 - WARNING - Row 3 skipped. Missing required fields: ['id', 'name']
+2026-11-11 02:34:11,866 - WARNING - Row 4 skipped. Missing required fields: ['id', 'name']
+2026-11-11 02:34:11,866 - WARNING - Row 5 skipped. Missing required fields: ['id', 'name']
+2026-11-11 02:34:11,867 - WARNING - Row 6 skipped. Missing required fields: ['id', 'name']
+2026-11-11 02:34:11,867 - WARNING - Row 7 skipped. Missing required fields: ['id', 'name']
+2026-11-11 02:34:11,868 - WARNING - Row 8 skipped. Missing required fields: ['id', 'name']
+2026-11-11 02:34:11,868 - WARNING - No records available for CSV output.
+2026-11-11 02:34:11,869 - INFO - JSON output saved: /Users/imac/Documents/python_data_processing_pipeline/data/output/cleaned_customers.json
+2026-11-11 02:34:11,870 - INFO - Processing summary saved: /Users/imac/Documents/python_data_processing_pipeline/data/output/summary.json
+2026-11-11 02:34:11,870 - INFO - Pipeline completed successfully.
+2026-11-11 02:49:44,113 - INFO - Starting data processing pipeline.
+2026-11-11 02:49:44,150 - ERROR - Pipeline failed: CSV file has no column headings.
+Traceback (most recent call last):
+  File "/Users/imac/Documents/python_data_processing_pipeline/src/pipeline.py", line 454, in main
+    records = read_source(config)
+  File "/Users/imac/Documents/python_data_processing_pipeline/src/pipeline.py", line 122, in read_source
+    records = read_csv_file(path)
+  File "/Users/imac/Documents/python_data_processing_pipeline/src/pipeline.py", line 61, in read_csv_file
+    raise ValueError("CSV file has no column headings.")
+ValueError: CSV file has no column headings.
+2026-11-11 02:54:17,189 - INFO - Starting data processing pipeline.
+2026-11-11 02:54:17,211 - ERROR - Pipeline failed: CSV file has no column headings.
+Traceback (most recent call last):
+  File "/Users/imac/Documents/python_data_processing_pipeline/src/pipeline.py", line 454, in main
+    records = read_source(config)
+  File "/Users/imac/Documents/python_data_processing_pipeline/src/pipeline.py", line 122, in read_source
+    records = read_csv_file(path)
+  File "/Users/imac/Documents/python_data_processing_pipeline/src/pipeline.py", line 61, in read_csv_file
+    raise ValueError("CSV file has no column headings.")
+ValueError: CSV file has no column headings.
+2026-11-11 02:57:42,040 - INFO - Starting data processing pipeline.
+2026-11-11 02:57:42,070 - INFO - Successfully read 7 records.
+2026-11-11 02:57:42,071 - WARNING - Row 3: Invalid age value 'not-known'. Set to missing.
+2026-11-11 02:57:42,072 - WARNING - Row 4 skipped. Missing required fields: ['name']
+2026-11-11 02:57:42,073 - INFO - Duplicate record removed at row 5.
+2026-11-11 02:57:42,073 - WARNING - Row 6: Invalid amount value 'invalid'. Set to missing.
+2026-11-11 02:57:42,073 - WARNING - Row 6: Invalid active value 'maybe'. Set to missing.
+2026-11-11 02:57:42,074 - INFO - Cleaning completed. Valid records: 5
+2026-11-11 02:57:42,076 - INFO - CSV output saved: /Users/imac/Documents/python_data_processing_pipeline/data/output/cleaned_customers.csv
+2026-11-11 02:57:42,090 - INFO - JSON output saved: /Users/imac/Documents/python_data_processing_pipeline/data/output/cleaned_customers.json
+2026-11-11 02:57:42,091 - INFO - Processing summary saved: /Users/imac/Documents/python_data_processing_pipeline/data/output/summary.json
+2026-11-11 02:57:42,091 - INFO - Pipeline completed successfully.
+2026-11-11 03:03:22,905 - INFO - Starting data processing pipeline.
+2026-11-11 03:03:22,933 - INFO - Successfully read 2 records.
+2026-11-11 03:03:22,935 - INFO - Cleaning completed. Valid records: 2
+2026-11-11 03:03:22,936 - INFO - CSV output saved: /Users/imac/Documents/python_data_processing_pipeline/data/output/cleaned_customers.csv
+2026-11-11 03:03:22,937 - INFO - JSON output saved: /Users/imac/Documents/python_data_processing_pipeline/data/output/cleaned_customers.json
+2026-11-11 03:03:22,938 - INFO - Processing summary saved: /Users/imac/Documents/python_data_processing_pipeline/data/output/summary.json
+2026-11-11 03:03:22,938 - INFO - Pipeline completed successfully.
+2026-11-11 03:04:09,912 - INFO - Starting data processing pipeline.
+2026-11-11 03:04:09,995 - INFO - Successfully read 7 records.
+2026-11-11 03:04:09,997 - WARNING - Row 3: Invalid age value 'not-known'. Set to missing.
+2026-11-11 03:04:09,998 - WARNING - Row 4 skipped. Missing required fields: ['name']
+2026-11-11 03:04:09,998 - INFO - Duplicate record removed at row 5.
+2026-11-11 03:04:09,998 - WARNING - Row 6: Invalid amount value 'invalid'. Set to missing.
+2026-11-11 03:04:09,999 - WARNING - Row 6: Invalid active value 'maybe'. Set to missing.
+2026-11-11 03:04:09,999 - INFO - Cleaning completed. Valid records: 5
+2026-11-11 03:04:10,000 - INFO - CSV output saved: /Users/imac/Documents/python_data_processing_pipeline/data/output/cleaned_customers.csv
+2026-11-11 03:04:10,002 - INFO - JSON output saved: /Users/imac/Documents/python_data_processing_pipeline/data/output/cleaned_customers.json
+2026-11-11 03:04:10,002 - INFO - Processing summary saved: /Users/imac/Documents/python_data_processing_pipeline/data/output/summary.json
+2026-11-11 03:04:10,003 - INFO - Pipeline completed successfully.
+2026-11-11 03:07:30,668 - INFO - Starting data processing pipeline.
+2026-11-11 03:07:30,697 - INFO - Successfully read 2 records.
+2026-11-11 03:07:30,698 - INFO - Cleaning completed. Valid records: 2
+2026-11-11 03:07:30,718 - INFO - CSV output saved: /Users/imac/Documents/python_data_processing_pipeline/data/output/cleaned_customers.csv
+2026-11-11 03:07:30,719 - INFO - JSON output saved: /Users/imac/Documents/python_data_processing_pipeline/data/output/cleaned_customers.json
+2026-11-11 03:07:30,720 - INFO - Processing summary saved: /Users/imac/Documents/python_data_processing_pipeline/data/output/summary.json
+2026-11-11 03:07:30,720 - INFO - Pipeline completed successfully.
+2026-11-11 03:10:27,483 - INFO - Starting data processing pipeline.
+2026-11-11 03:10:27,525 - INFO - Successfully read 7 records.
+2026-11-11 03:10:27,526 - WARNING - Row 3: Invalid age value 'not-known'. Set to missing.
+2026-11-11 03:10:27,527 - WARNING - Row 4 skipped. Missing required fields: ['name']
+2026-11-11 03:10:27,527 - INFO - Duplicate record removed at row 5.
+2026-11-11 03:10:27,528 - WARNING - Row 6: Invalid amount value 'invalid'. Set to missing.
+2026-11-11 03:10:27,528 - WARNING - Row 6: Invalid active value 'maybe'. Set to missing.
+2026-11-11 03:10:27,529 - INFO - Cleaning completed. Valid records: 5
+2026-11-11 03:10:27,530 - INFO - CSV output saved: /Users/imac/Documents/python_data_processing_pipeline/data/output/cleaned_customers.csv
+2026-11-11 03:10:27,531 - INFO - JSON output saved: /Users/imac/Documents/python_data_processing_pipeline/data/output/cleaned_customers.json
+2026-11-11 03:10:27,531 - INFO - Processing summary saved: /Users/imac/Documents/python_data_processing_pipeline/data/output/summary.json
+2026-11-11 03:10:27,531 - INFO - Pipeline completed successfully.

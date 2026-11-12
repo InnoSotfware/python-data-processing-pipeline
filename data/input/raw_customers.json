@@ -1,0 +1,19 @@
+
+[
+    {
+        "id": "10",
+        "name": "Tuli",
+        "age": "28",
+        "amount": "75.5",
+        "active": "yes",
+        "signup_date": "2026-05-01"
+    },
+    {
+        "id": "11",
+        "name": "Jonas",
+        "age": "",
+        "amount": "30",
+        "active": "no",
+        "signup_date": "2026-05-02"
+    }
+]

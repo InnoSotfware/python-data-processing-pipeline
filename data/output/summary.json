@@ -1,0 +1,8 @@
+{
+    "input_rows": 7,
+    "output_rows": 5,
+    "invalid_rows_skipped": 1,
+    "duplicates_removed": 1,
+    "missing_values_filled": 1,
+    "processing_status": "Completed"
+}

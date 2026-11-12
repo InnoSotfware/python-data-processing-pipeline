@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "Amalia",
+        "age": 25,
+        "amount": 120.5,
+        "active": true,
+        "signup_date": "2026-01-10",
+        "country": "Namibia"
+    },
+    {
+        "id": 2,
+        "name": "Peter",
+        "age": null,
+        "amount": 85.0,
+        "active": true,
+        "signup_date": "2026-02-11",
+        "country": "Namibia"
+    },
+    {
+        "id": 3,
+        "name": "Maria",
+        "age": null,
+        "amount": 40.25,
+        "active": false,
+        "signup_date": "2026-03-12",
+        "country": "Angola"
+    },
+    {
+        "id": 5,
+        "name": "David",
+        "age": 29,
+        "amount": null,
+        "active": null,
+        "signup_date": "2026-04-01",
+        "country": "Namibia"
+    },
+    {
+        "id": 6,
+        "name": "Selma",
+        "age": 22,
+        "amount": 90.0,
+        "active": true,
+        "signup_date": "2026-04-02",
+        "country": "Namibia"
+    }
+]
